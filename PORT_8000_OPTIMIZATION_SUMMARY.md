@@ -185,7 +185,8 @@ python3 validate_config.py
 
 ### **Service Status**
 ```bash
-# Check Docker containers
+# Check Docker containers (from docker directory)
+cd docker
 docker-compose ps
 
 # View Whisper API logs
